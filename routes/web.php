@@ -14,6 +14,7 @@
 // Route::get('/', function () {
 //     return view('welcome');
 // });
+
 Route::view('/','welcome');
 
 
@@ -23,6 +24,10 @@ Route::get('/imobilier', function () {
 Route::get('/acceuil', function(){
 
 	return view('acceuil');
+});
+
+Route::get("/indexe", function(){
+	return view('indexe');
 });
 
 // Route::get('/membre', function () {

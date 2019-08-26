@@ -30,7 +30,7 @@ class ConnexionController extends Controller
     	{
     		
     		flash("Vous êtes bien connecté")->success();
-    		return redirect('/compte');
+    		return redirect('/compte', compact("result"));
     	}
 
     	return back()->withInput()->withErrors([

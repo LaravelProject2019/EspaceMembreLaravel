@@ -1,0 +1,30 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+.cadre{
+	border: 1px solid green;
+	padding: 50px;
+} 
+
+.armoirie{
+
+	margin: 20px 50px ;
+
+}
+
+.leng{
+
+	margin: auto ;
+}
+
+.legend{
+
+	margin-left: 250px;
+	margin-top: 0;
+}
+
+.wrap{
+
+	border: 1px solid yellow;
+}
