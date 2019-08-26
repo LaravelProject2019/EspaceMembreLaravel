@@ -162,36 +162,62 @@
 
 </div>
 
-    <div class="contenu">
+    <div class="container">
 
         <div class="row">
 
-            <div class="col-md-8"><h1 class="mt-0">Mon espace personnel</h1></div>
+            <div class="col-md-8">
+            	<h1 class="mt-0">Mon espace personnel</h1>
+            </div>
 
         </div>
 
         <p>&nbsp;</p>
 
-         <div class="row">
+        <div class="row">
 
             <div class="col-md-8"><h3 class="mt-0">Mes données</h3></div>
-
-            <div class="card mb-4 shadow-sm">
-      <div class="card-header">
-        <h4 class="my-0 font-weight-normal">Free</h4>
-      </div>
-      <div class="card-body">
-        <h1 class="card-title pricing-card-title">$0 <small class="text-muted">/ mo</small></h1>
-        <ul class="list-unstyled mt-3 mb-4">
-          <li>10 users included</li>
-          <li>2 GB of storage</li>
-          <li>Email support</li>
-          <li>Help center access</li>
-        </ul>
-        <button type="button" class="btn btn-lg btn-block btn-outline-primary">Sign up for free</button>
-      </div>
-    </div>
         </div>
+            <div class="card mb-4 shadow-sm">
+	      		<div class="card-header">
+	        		<h4 class="my-0 font-weight-normal" style="color:purple;">Les réssources gratuites</h4>
+	      		</div>
+	      		<div class="row">
+			        <div class="card-body">
+			        	<h1 class="card-title pricing-card-title">$0 <small class="text-muted"></small></h1>
+			        	<ul class="list-unstyled mt-3 mb-4">
+				          	<li><img src="{{ asset('images/cour01.jpg') }}"></li>
+				          	<li></li>
+				          	<li></li>
+				          	<li>Tous connaitre dans la programmation python</li>
+				          	
+			        	</ul>
+			        	<button type="button" class="btn btn-lg btn-block btn-outline-primary">Voir plus</button>
+			        </div>
+
+			        <div class="card-body">
+			        	<h1 class="card-title pricing-card-title">$0 <small class="text-muted"></small></h1>
+			        	<ul class="list-unstyled mt-3 mb-4">
+				          	<li><img src="{{ asset('images/cour2.png') }}"></li>
+				          	<li></li>
+				          	<li></li>
+				          	<li>Tous connaitre sur la programmation python</li>
+			        	</ul>
+			        	<button type="button" class="btn btn-lg btn-block btn-outline-primary">Voir plus</button>
+			        </div>
+
+			        <div class="card-body">
+			        	<h1 class="card-title pricing-card-title">$0 <small class="text-muted"></small></h1>
+			        	<ul class="list-unstyled mt-3 mb-4">
+				          	<li><img src="{{ asset('images/cour3.png') }}"></li>
+				          	<li></li>
+				          	<li></li>
+				          	<li>Comprendre les fondamentaux de la programmations android</li>
+			        	</ul>
+			        	<button type="button" class="btn btn-lg btn-block btn-outline-primary">Voir plus</button>
+			        </div>
+			    </div>
+		    </div>
 
 
          <p>&nbsp;</p>
